@@ -1,4 +1,3 @@
-```
 # RDMA-Powered Distributed Cache
 
 A high-performance distributed in-memory cache built in C using real RDMA verbs (libibverbs) on Linux. Designed to demonstrate CPU offload architecture inspired by Marvell's Octeon DPU — where network and memory operations are handled without involving the main CPU.
@@ -106,4 +105,3 @@ Marvell's Octeon DPU has dedicated ARM cores that run RDMA and packet processing
 - Test on physical RDMA-capable NIC (ConnectX or similar)
 - Add consistent hashing across multiple cache nodes
 - Add replication for fault tolerance
-```
